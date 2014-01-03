@@ -31,9 +31,8 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-
+gem 'pg'
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
 gem "heroku"
